@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Piano</title>
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <h2>Virtual Piano</h2>
+            <section class="column volumeSlider">
+                <h3>Volume</h3>
+                <input type="range" min="0" max="1" value="0.5" step="any">
+            </section>
+            <section class="column keysCheck">
+                <h3>Teclas</h3>
+                <input type="checkbox" checked>
+            </section>
+        </header>
+        <ul class="pianoKeys">
+            <li class="key white" data-key="a">
+                <h4>a</h4>
+            </li>
+            <li class="key black" data-key="w">
+                <h4>w</h4>
+            </li>
+            <li class="key white" data-key="s">
+                <h4>s</h4>
+            </li>
+            <li class="key black" data-key="e">
+                <h4>e</h4>
+            </li>
+            <li class="key white" data-key="d">
+                <h4>d</h4>
+            </li>
+            <li class="key black" data-key="f">
+                <h4>f</h4>
+            </li>
+            <li class="key white" data-key="t">
+                <h4>t</h4>
+            </li>
+            <li class="key black" data-key="g">
+                <h4>g</h4>
+            </li>
+            <li class="key white" data-key="y">
+                <h4>y</h4>
+            </li>
+            <li class="key black" data-key="h">
+                <h4>h</h4>
+            </li>
+            <li class="key white" data-key="u">
+                <h4>u</h4>
+            </li>
+            <li class="key black" data-key="j">
+                <h4>j</h4>
+            </li>
+            <li class="key white" data-key="k">
+                <h4>k</h4>
+            </li>
+            <li class="key black" data-key="o">
+                <h4>o</h4>
+            </li>
+            <li class="key white" data-key="l">
+                <h4>l</h4>
+            </li>
+            <li class="key black" data-key="p">
+                <h4>p</h4>
+            </li>
+            <li class="key white" data-key=";">
+                <h4>;</h4>
+            </li>
+        </ul>
+    </main>
+    <script src="src/script/main.js" defer></script>
+</body>
+
+</html>
